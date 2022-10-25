@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:lean_bloc_bogin_demo/bloc/login/view/login_form.dart';
+
+import 'login_form.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({Key? key}) : super(key: key);

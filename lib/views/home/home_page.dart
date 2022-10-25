@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:lean_bloc_bogin_demo/bloc/authentication/bloc/authentication_bloc.dart';
-import 'package:lean_bloc_bogin_demo/bloc/login/bloc/login_bloc.dart';
+
+import '../../global_states/bloc/authentication_bloc.dart';
+import '../../global_states/login/login_bloc.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
